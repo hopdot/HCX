@@ -1,340 +1,357 @@
-<img src="https://raw.githubusercontent.com/bitpay/copay/master/resources/copay/windows/icon/Wide310x150Logo.scale-100.png" alt="Copay">
+### The 360° Project Webpage
 
-[![CircleCI](https://img.shields.io/circleci/project/github/bitpay/copay/master.svg)](https://circleci.com/gh/bitpay/copay/)
-[![Codecov](https://img.shields.io/codecov/c/github/bitpay/copay.svg)](https://codecov.io/gh/bitpay/copay/)
-[![Crowdin](https://d322cqt584bo4o.cloudfront.net/copay/localized.png)](https://crowdin.com/project/copay)
+---
 
-Copay is a secure bitcoin wallet platform for both desktop and mobile devices. Copay uses [Bitcore Wallet Service](https://github.com/bitpay/bitcore-wallet-service) (BWS) for peer synchronization and network interfacing.
+#### Home | About Us | Programs | Get Involved | News & Events | Contact Us
 
-Binary versions of Hcoinx are available for download at [Copay.io](https://copay.io/#download). Copay Binaries are signed with the key `copay@bitpay.com` – See the section [`How to Verify Copay Signatures`](https://github.com/bitpay/copay#how-to-verify-copay-signatures) for details.
+---
 
-This project was created by BitPay Inc, and it is maintained by BitPay and houndreds of contributors. There is a BitPay branded version of Copay at mobile phone stores, BitPay Wallet, which features integration with the BitPay Visa Debit Card, as its main difference.
+### Home
 
-For a list of frequently asked questions please visit the [Copay FAQ](https://github.com/bitpay/copay/wiki/COPAY---FAQ).
+**Welcome to The 360° Project**
 
-## Main Features
+At The 360° Project, we are dedicated to creating holistic solutions that foster sustainable community development and individual empowerment. Our mission is to address the multifaceted needs of underserved communities through comprehensive, innovative approaches.
 
-- Bitcoin and Bitcoin Cash coin support
-- Multiple wallet creation and management in-app
-- Intuitive, multisignature security for personal or shared wallets
-- Easy spending proposal flow for shared wallets and group payments
-- [BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki) Hierarchical deterministic (HD) address generation and wallet backups
-- Device-based security: all private keys are stored locally, not in the cloud
-- Support for Bitcoin testnet wallets
-- Synchronous access across all major mobile and desktop platforms
-- Payment protocol (BIP70-BIP73) support: easily-identifiable payment requests and verifiable, secure bitcoin payments
-- Support for over 150 currency pricing options and unit denomination in BTC or bits
-- Mnemonic (BIP39) support for wallet backups
-- Paper wallet sweep support (BIP38)
-- Email notifications for payments and transfers
-- Push notifications (only available for ios and android versions)
-- Customizable wallet naming and background colors
-- Multiple languages supported
-- Available for [iOS](https://itunes.apple.com/us/app/copay/id951330296), [Android](https://play.google.com/store/apps/details?id=com.bitpay.copay&hl=en), [Windows Phone](http://www.windowsphone.com/en-us/store/app/copay-wallet/4372479b-a064-4d18-8bd3-74a3bdb81c3a), [Chrome App](https://chrome.google.com/webstore/detail/copay/cnidaodnidkbaplmghlelgikaiejfhja?hl=en), [Linux](https://github.com/bitpay/copay/releases/latest), [Windows](https://github.com/bitpay/copay/releases/latest) and [OS X](https://github.com/bitpay/copay/releases/latest) devices
+**Discover Our Mission** [Link to About Us]
 
-## Testing in a Browser
+---
 
-> **Note:** This method should only be used for development purposes. When running Copay in a normal browser environment, browser extensions and other malicious code might have access to internal data and private keys. For production use, see the latest official [releases](https://github.com/bitpay/copay/releases/).
+### About Us
 
-Clone the repo and open the directory:
+**Our Vision**
 
-```sh
-git clone https://github.com/bitpay/copay.git
-cd copay
-```
+The 360° Project envisions thriving, resilient communities where every individual has the opportunity to reach their full potential. We aim to bridge gaps and provide support through a wide array of services and initiatives.
 
-Ensure you have [Node](https://nodejs.org/) installed, then install and start Copay:
+**Our Approach**
 
-```sh
-npm install
-npm run apply:copay
-npm run start
-```
+We adopt a 360-degree approach to community development, focusing on education, health, economic empowerment, and environmental sustainability. Our projects are designed to address the interconnected aspects of community well-being.
 
-Visit [`localhost:8100`](http://localhost:8100/) to view the app.
+**Meet Our Team**
 
-## Unit & E2E Tests (Karma & Protractor)
+- **Howard Mosely Jr.** - Founder
+- **Alex Johnson** - Executive Director
+- **Maria Martinez** - Program Director
+- **David Lee** - Community Outreach Coordinator
 
-To run the tests, run:
+[View All Team Members]
 
-```
- npm run test
-```
+---
 
-## Testing on Real Devices
+### Programs
 
-It's recommended that all final testing be done on a real device – both to assess performance and to enable features that are unavailable to the emulator (e.g. a device camera).
+**Our Initiatives**
 
-### Android
+1. **Education and Training**
+   - Offering educational programs and vocational training to empower individuals with knowledge and skills.
 
-Follow the [Cordova Android Platform Guide](https://cordova.apache.org/docs/en/latest/guide/platforms/android/) to set up your development environment.
+2. **Health and Wellness**
+   - Providing health services, wellness programs, and resources to promote a healthy lifestyle.
 
-When your developement enviroment is ready, run the `start:android` package script.
+3. **Economic Empowerment**
+   - Supporting entrepreneurship, job creation, and financial literacy to enhance economic stability.
 
-```sh
-npm run apply:copay
-npm run prepare:copay
-npm run start:android
-```
+4. **Environmental Sustainability**
+   - Promoting sustainable practices and environmental awareness within communities.
 
-### iOS
+**Featured Programs**
 
-Follow the [Cordova iOS Platform Guide](https://cordova.apache.org/docs/en/latest/guide/platforms/ios/) to set up your development environment.
+- **Youth Education Initiative**
+  - Enhancing educational opportunities for young people in underserved areas.
 
-When your developement enviroment is ready, run the `start:ios` package script.
+- **Community Health Clinics**
+  - Offering free health services and wellness workshops.
 
-```sh
-npm run apply:copay
-npm run prepare:copay
-npm run start:ios
-```
+- **Microenterprise Support Program**
+  - Assisting small businesses and entrepreneurs with resources and mentorship.
 
-### Desktop (Linux, macOS, and Windows)
+[Explore All Programs]
 
-The desktop version of Copay currently uses Electron. To get started, first install Electron on your system from [the Electron website](https://electronjs.org/).
+---
 
-When Electron is installed, run the `start:desktop` package script.
+### Get Involved
 
-```sh
-npm run apply:copay
-npm run start:desktop
-```
+**Join Us**
 
-## Build Copay App Bundles
+Become a part of The 360° Project and contribute to making a positive impact in your community.
 
-Before building the release version for a platform, run the `clean-all` command to delete any untracked files in your current working directory. (Be sure to stash any uncommited changes you've made.) This guarantees consistency across builds for the current state of this repository.
+[Membership Application Form]
 
-The `final` commands build the production version of the app, and bundle it with the release version of the platform being built.
+**Volunteer Opportunities**
 
-### Android
+Lend your time and expertise to support our diverse range of programs and initiatives.
 
-```sh
-npm run clean-all
-npm install
-npm run apply:copay
-npm run prepare:copay
-npm run final:android
-```
+[Volunteer Sign-Up Form]
 
-### iOS
+**Donate**
 
-```sh
-npm run clean-all
-npm install
-npm run apply:copay
-npm run prepare:copay
-npm run final:ios
-```
+Your donations help us continue our work and expand our reach to more communities in need.
 
-### Push Notifications
+[Donate Now]
 
-Push notification doesn't work on iOS 12 due to an update of Xcode and plugin `cordova-plugin-fcm`.
+---
 
-A current workaround is to comment out the line to prevent the removal of the file during the debug build (line 56 in platforms/ios/cordova/lib/copy-www-build-step.js).
+### News & Events
 
-[Source](https://github.com/phonegap/phonegap-plugin-push/issues/2518)
+**Upcoming Events**
 
-### Desktop (Linux, macOS, and Windows)
+- **Annual Fundraising Gala**
+  - Date: [MM/DD/YYYY]
+  - Location: [Venue Name]
+  - Join us for an evening of celebration and support for our mission.
 
-```sh
-npm run clean-all
-npm install
-npm run apply:copay
-npm run final:desktop
-```
+- **Community Clean-Up Day**
+  - Date: [MM/DD/YYYY]
+  - Location: [Meeting Point]
+  - Participate in our environmental sustainability efforts and help clean up local areas.
 
-## Desktop Data Path
+**Latest News**
 
-Per-user application data directory for Copay or BitPay distribution.
+- [Title of Latest News Article]
+  - Brief summary of the article and a link to read more.
 
-```sh
-"~/Library/Containers/com.bitpay.copay.desktop2/Data/.copay"
-# or
-"~/Library/Containers/com.bitpay.wallet.desktop/Data/.bitpay"
-```
+[View All News]
 
-## Configuration
+---
 
-### Enable External Services
+### Contact Us
 
-To enable external services, set the `COPAY_EXTERNAL_SERVICES_CONFIG_LOCATION` or `BITPAY_EXTERNAL_SERVICES_CONFIG_LOCATION` environment variable to the location of your configuration before running the `apply` task.
+**Connect with Us**
 
-```sh
-COPAY_EXTERNAL_SERVICES_CONFIG_LOCATION="~/.copay/externalServices.json" npm run apply:copay
-# or
-BITPAY_EXTERNAL_SERVICES_CONFIG_LOCATION="~/.bitpay/externalServices.json" npm run apply:bitpay
-```
+We are here to answer your questions, provide more information, and discuss ways to get involved.
 
-## About Copay
+**Main Office Address:**
+302 Champion St, Gray, LA 70359
 
-### General
+**Email:**
+incfreshstart@gmail.com
 
-Copay implements a multisig wallet using [p2sh](https://en.bitcoin.it/wiki/Pay_to_script_hash) addresses. It supports multiple wallets, each with its own configuration, such as 3-of-5 (3 required signatures from 5 participant peers) or 2-of-3. To create a multisig wallet shared between multiple participants, Copay requires the extended public keys of all the wallet participants. Those public keys are then incorporated into the wallet configuration and combined to generate a payment address where funds can be sent into the wallet. Conversely, each participant manages their own private key and that private key is never transmitted anywhere.
+**Phone:**
+985-324-1299
 
-To unlock a payment and spend the wallet's funds, a quorum of participant signatures must be collected and assembled in the transaction. The funds cannot be spent without at least the minimum number of signatures required by the wallet configuration (2-of-3, 3-of-5, 6-of-6, etc.). Once a transaction proposal is created, the proposal is distributed among the wallet participants for each to sign the transaction locally. Finally, when the transaction is signed, the last signing participant will broadcast the transaction to the Bitcoin network.
+**Follow Us on Social Media:**
+- [Facebook]
+- [Twitter]
+- [Instagram]
+- [LinkedIn]
 
-Copay also implements [BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki) to generate new addresses for peers. The public key that each participant contributes to the wallet is a BIP32 extended public key. As additional public keys are needed for wallet operations (to produce new addresses to receive payments into the wallet, for example) new public keys can be derived from the participants' original extended public keys. Once again, it's important to stress that each participant keeps their own private keys locally - private keys are not shared - and are used to sign transaction proposals to make payments from the shared wallet.
+[Contact Form]
 
-For more information regarding how addresses are generated using this procedure, see: [Structure for Deterministic P2SH Multisignature Wallets](https://github.com/bitcoin/bips/blob/master/bip-0045.mediawiki).
+**Stay Updated**
 
-## Copay Backups and Recovery
+Sign up for our newsletter to receive the latest updates on our programs, events, and impact.
 
-Since v1.2 Copay uses BIP39 mnemonics for backing up wallets. The BIP44 standard is used for wallet address derivation. Multisig wallets use P2SH addresses, while non-multisig wallets use P2PKH.
+[Subscribe to Newsletter]
 
-Information about backup and recovery procedures is available at: https://github.com/bitpay/copay/blob/master/backupRecovery.md
+---
 
-Previous versions of Copay used files as backups. See the following section.
+#### Footer
 
-It is possible to recover funds from a Copay Wallet without using Copay or the Wallet Service, check the [Copay Recovery Tool](https://github.com/bitpay/copay-recovery/tree/master).
+**© 2024 The 360° Project | Privacy Policy | Terms of Use**
 
-## Wallet Export Format
+---
 
-Copay encrypts the backup with the [Stanford JS Crypto Library](http://bitwiseshiftleft.github.io/sjcl/). To extract the private key of your wallet you can go to settings, choose your wallet, click in "more options", then "wallet information", scroll to the bottom and click in "Extended Private Key". That information is enough to sign any transaction from your wallet, so be careful when handling it!
+### Additional Features:
 
-The backup also contains the key `publicKeyRing` that holds the extended public keys of the Copayers.
-Depending on the key `derivationStrategy`, addresses are derived using
-[BIP44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki) or [BIP45](https://github.com/bitcoin/bips/blob/master/bip-0045.mediawiki). Wallets created in Copay v1.2 and forward always use BIP44, all previous wallets use BIP45. Also note that since Copay version v1.2, non-multisig wallets use address types Pay-to-PublicKeyHash (P2PKH) while multisig wallets still use Pay-to-ScriptHash (P2SH) (key `addressType` at the backup):
+- **Accessibility:** Ensure the website is accessible to all users, including those with disabilities.
+- **Responsive Design:** Optimize the website for both desktop and mobile devices.
+- **SEO Optimization:** Include meta tags, keywords, and descriptions to enhance search engine visibility.
+- **Secure Transactions:** Implement secure payment gateways for donations and membership dues.
 
-| Copay Version | Wallet Type               | Derivation Strategy | Address Type |
-| ------------- | ------------------------- | ------------------- | ------------ |
-| <1.2          | All                       | BIP45               | P2SH         |
-| ≥1.2          | Non-multisig              | BIP44               | P2PKH        |
-| ≥1.2          | Multisig                  | BIP44               | P2SH         |
-| ≥1.5          | Multisig Hardware wallets | BIP44 (root m/48’)  | P2SH         |
 
-Using a tool like [Bitcore PlayGround](http://bitcore.io/playground) all wallet addresses can be generated. (TIP: Use the `Address` section for P2PKH address type wallets and `Multisig Address` for P2SH address type wallets). For multisig addresses, the required number of signatures (key `m` on the export) is also needed to recreate the addresses.
 
-BIP45 note: All addresses generated at BWS with BIP45 use the 'shared cosigner index' (2147483647) so Copay address indexes look like: `m/45'/2147483647/0/x` for main addresses and `m/45'/2147483647/1/y` for change addresses.
+### Smart Enterprise LLC Governance Framework
 
-Since version 1.5, Copay uses the root `m/48'` for hardware multisignature wallets. This was coordinated with Ledger and Trezor teams. While the derivation path format is still similar to BIP44, the root was in order to indicate that these wallets are not discoverable by scanning addresses for funds. Address generation for multisignature wallets requires the other copayers extended public keys.
+#### Table of Contents
+1. **Introduction**
+2. **Governance Structure**
+3. **Roles and Responsibilities**
+4. **Decision-Making Processes**
+5. **Transparency and Accountability**
+6. **Committees and Subcommittees**
+7. **Meetings and Reporting**
+8. **Conflict Resolution**
+9. **Review and Amendments**
 
-## Bitcore Wallet Service
+---
 
-Copay depends on [Bitcore Wallet Service](https://github.com/bitpay/bitcore-wallet-service) (BWS) for blockchain information, networking and Copayer synchronization. A BWS instance can be setup and operational within minutes or you can use a public instance like `https://bws.bitpay.com`. Switching between BWS instances is very simple and can be done with a click from within Copay. BWS also allows Copay to interoperate with other wallets like [Bitcore Wallet CLI](https://github.com/bitpay/bitcore-wallet).
+### 1. Introduction
+**Purpose:** To outline the governance framework for Smart Enterprise LLC, ensuring effective, transparent, and accountable management in line with our mission to foster positive community impact through community organization, education empowerment, and resource allocation.
 
-Please note that Copay v5.3.0 and above use CSP to restrict network access. To use a custom BWS see [CSP announcement](https://github.com/bitpay/copay/blob/master/CSP.md).
+---
 
-## Translations
+### 2. Governance Structure
+**Overview:** Smart Enterprise LLC operates under a member-controlled governance structure with a Board of Directors and specialized committees to ensure comprehensive oversight and strategic decision-making.
 
-Copay uses standard gettext PO files for translations and [Crowdin](https://crowdin.com/project/copay) as the front-end tool for translators. To join our team of translators, please create an account at [Crowdin](https://crowdin.com) and translate the Copay documentation and application text into your native language.
+**Member Control:**
+- Each member has a vote in major decisions.
+- Annual General Meetings (AGMs) are held for key votes and strategic discussions.
 
-To download and build using the latest translations from Crowdin, please use the following commands:
+**Board of Directors:**
+- Composed of elected members.
+- Responsible for strategic oversight and long-term planning.
 
-```sh
-cd i18n
-node crowdin_download.js
-```
+**Committees:**
+- Formed to handle specific areas like community outreach, education, and resource allocation.
+- Report to the Board and membership.
 
-This will download all partial and complete language translations while also cleaning out any untranslated ones.
+---
 
-**Translation Credits:**
+### 3. Roles and Responsibilities
+**Members:**
+- Participate in decision-making processes.
+- Attend AGMs and special meetings.
+- Engage in committee activities and community initiatives.
 
-- Japanese: @dabura667
-- French: @kirvx
-- Portuguese: @pmichelazzo
-- Spanish: @cmgustavo
-- German: @saschad
-- Russian: @vadim0
+**Board of Directors:**
+- Develop and oversee the strategic plan.
+- Ensure alignment with the company’s mission and goals.
+- Provide financial oversight and ensure legal compliance.
 
-_Gracias totales!_
+**Committees:**
+- Focus on specific operational areas.
+- Develop and implement programs.
+- Report on progress and challenges.
 
-## Release Schedules
+---
 
-Copay uses the `MAJOR.MINOR.BATCH` convention for versioning. Any release that adds features should modify the MINOR or MAJOR number.
+### 4. Decision-Making Processes
+**Voting:**
+- Major decisions require a majority vote from members.
+- Voting can occur during AGMs or through special ballots.
 
-### Bug Fixing Releases
+**Consensus Building:**
+- Encourage open discussion and consensus before formal voting.
+- Use facilitated meetings to resolve differences and build agreement.
 
-We release bug fixes as soon as possible for all platforms. Usually around a week after patches, a new release is made with language translation updates (like 1.1.4 and then 1.1.5). There is no coordination so all platforms are updated at the same time.
+**Authority Levels:**
+- Define clear levels of authority for members, committees, and the Board.
+- Ensure decisions are made at the appropriate level.
 
-### Minor and Major Releases
+---
 
-- t+0: tag the release 1.2 and "text lock" (meaning only non-text related bug fixes. Though this rule is sometimes broken, it's good to make a rule.)
-- t+7: testing for 1.2 is finished, translation is also finished, and 1.2.1 is tagged with all translations along with bug fixes made in the last week.
-- t+7: iOS is submitted for 1.2.1. All other platforms are submitted with auto-release off.
-- t + (~17): All platforms 1.2.1 are released when Apple approves the iOS application update.
+### 5. Transparency and Accountability
+**Communication:**
+- Regular updates through newsletters, emails, and meetings.
+- Publicly accessible records of meetings and decisions.
 
-## How to Verify Copay Signatures
+**Reporting:**
+- Committees and the Board report regularly to members.
+- Annual reports summarize achievements, challenges, and financials.
 
-1.  Download the `copay@bitpay.com` public key (`gpg --recv-keys 1112CFA1`)
-2.  Download Copay binary (`$FILENAME`) and signature file (`$FILENAME.sig`)
-3.  Verify the signature by running:
+**Accountability:**
+- Performance reviews for Board members and committee chairs.
+- Mechanisms for members to raise concerns and provide feedback.
 
-```bash
-$ gpg --verify \
- $FILENAME.sig \
- $FILENAME
+---
 
-# It should return:
-Good signature from "Copay (visit copay.io) <copay@bitpay.com>"
-```
+### 6. Committees and Subcommittees
+**Formation:**
+- Committees formed based on strategic needs.
+- Members volunteer or are appointed based on expertise.
 
-### Public Key for Copay Binaries
+**Examples:**
+- **Community Outreach Committee:** Focuses on building relationships and engaging communities.
+- **Education Empowerment Committee:** Develops and oversees educational programs.
+- **Resource Allocation Committee:** Manages the distribution of resources to targeted groups.
 
-Instead of importing the public key from a public server (like gnu's) you can grab it from here:
+**Subcommittees:**
+- Created for specific projects or initiatives.
+- Report to their parent committee.
 
-```
------BEGIN PGP PUBLIC KEY BLOCK-----
-Version: SKS 1.1.5
-Comment: Hostname: pgp.mit.edu
+---
 
-mQMuBFO8l6sRCAD+VYKPjZY7hMCKVC3KWCkcqvSXEfiqx8KIVSp4yKx1blpVHoBYfAj13Lls
-XkVMujjRVZZB8tVxl3282T/1T4VNLdHy+HvulWbAmZRAJzTw8xZYkb7L9iFFVvIHk2o31Gbq
-7PAvML2MKA556jd0/OjixDR8mLpdAee8la+09RHuWhOYtFJ4nyrVW0nVFApqj1R90eXMcvOj
-vSEdVHEmO341RiwayadfGRRwTqlYtsIx0k64+dpGyjA0CnJJLKVKPTzyn3bQEFhrCq41XfJf
-AFI928/YVb4Wmbd51wgDv01c2b/gyGXwNFW+Qxj9xIcVgK/EPMn2I5j4eBsnOZy9Gn9vAQDj
-SfX26Q6nU1x7ULPjGJ/SefPkYm2swp1Gxfmn78bXFwgA/Q7/QqqARHuUtO3ZP4FgmcxxYYK8
-M+/+ROKoUUPA7Hx3cG3eq86Q5Ok7ADGFTurjaOdZmuV42E54t1pKIYvAe3IJLXr06cx3Vb8L
-zLtalsQsYh2IebwRTu2wvQpsSJxBoVUzwmosNWiOuIemlTpujUFmP89Wad8MsnQSRBNoK0D7
-03ckYjVRJPD+qd788c9JGyTredk0gJzV2dqesMFT+EaLuNUuOktWC+jTGZ5xK9F7EXN0ZfIM
-fKDLFxvCL2a9cTCJIVirn1Ur6QHDsw5PBD/U7DDZDkk9Hzl1ep3qk7PVMn/xDzz3MxKRKKd+
-d7d7wZA9OE+iKoivcAPeC1yTxQgA8KEaCz2TuS1+M9A+8PzGebKJ1OazwCb+tIGWCXUeJlIh
-dRV7W/kre6e4fv0UOxDJHBrIoD1vIGtHguOGSMEnFuVJFDIH2HXXr5oxJkO86RMAig+EbglT
-BJbFEfdx8Ruwhw74JzetijGHYRG62u7n8o8iX6RbpTdzt/nq26fs3Ts0SLMHfP26ZVHJOjY6
-2dTCrw0q20RC4i9HWHJ0g694YBPYvhp2gYks93tigHbIqB1GhpBmBauuNvXRvNs493Rn40FI
-wNMtWZBcQSMch1aEm4j5njDTt4+a6c/v8W2px3u8nFacKBR5FV86WjHEg+HmNx72nvfE/PQW
-HEQixfyiObQpQ29wYXkgKHZpc2l0IGNvcGF5LmlvKSA8Y29wYXlAYml0cGF5LmNvbT6IegQT
-EQgAIgUCU7yXqwIbAwYLCQgHAwIGFQgCCQoLBBYCAwECHgECF4AACgkQXNYAphESz6FzCQEA
-wcLYPogeVLbG3ZL5Bi/Be7U4ctNgewfKEZSSmec3vBYBAIB2xXhiq5ZER1P033KFT8g5pgY2
-fMbk4YsO11Yj2B2m
-=tKra
------END PGP PUBLIC KEY BLOCK-----
-```
+### 7. Meetings and Reporting
+**AGMs:**
+- Held annually for major decisions, elections, and strategic discussions.
+- All members encouraged to attend and participate.
 
-Save that text to /tmp/key, and then import it as follows:
+**Board Meetings:**
+- Regular meetings to discuss strategic and operational issues.
+- Minutes recorded and shared with members.
 
-```
-gpg --import /tmp/key
-```
+**Committee Meetings:**
+- Scheduled as needed to advance their specific mandates.
+- Reports prepared for the Board and membership.
 
-(Thanks @pzkpfwVI and @mika-mitzahlen for this section, taken from [Gist](https://gist.github.com/matiu/61c9f529efeeba66c0e2).
+---
 
-## Contributing to this project
+### 8. Conflict Resolution
+**Mechanism:**
+- Clear process for resolving disputes among members, committees, or the Board.
+- Mediation and arbitration options available.
 
-Anyone and everyone is welcome to contribute. Please take a moment to
-review the [guidelines for contributing](CONTRIBUTING.md).
+**Steps:**
+1. **Informal Discussion:** Attempt to resolve the issue through direct dialogue.
+2. **Mediation:** Involve a neutral third party to facilitate resolution.
+3. **Arbitration:** Binding decision made by an appointed arbitrator if needed.
 
-- [Bug reports](CONTRIBUTING.md#bugs)
-- [Feature requests](CONTRIBUTING.md#features)
-- [Pull requests](CONTRIBUTING.md#pull-requests)
+---
 
-## Current Active Developers GPG keys ID
+### 9. Review and Amendments
+**Review Process:**
+- Regular reviews of the governance framework to ensure effectiveness and relevance.
+- Feedback from members and stakeholders considered.
 
-- 15EDAD8D9F2EB1AF @cmgustavo
+**Amendments:**
+- Proposed changes to the governance framework require member approval.
+- Transparent process for proposing and voting on amendments.
 
-- FC283098DA862864 @gabrielbazan7
+---
 
-- DD6D7EAADE12280D @Gamboster
+**Note:** This document serves as a guide to the governance framework of Smart Enterprise LLC. Detailed procedures and specific forms related to elections, voting, reporting, and conflict resolution are provided in accompanying operational manuals.
 
-- D87947CC8A32D91C @msalcala11
 
-- 612C9C4DDAC47B61 @rastajpa
 
-- F8FC1D9B1B46486D @matiu
+### Smart Enterprise LLC Operational Manual
 
-## Support
+---
 
-Please see [Support requests](CONTRIBUTING.md#support)
+#### Table of Contents
+1. **Introduction**
+2. **Membership Procedures**
+3. **Board of Directors Operations**
+4. **Committee Operations**
+5. **Decision-Making and Voting Procedures**
+6. **Communication and Reporting**
+7. **Financial Management**
+8. **Conflict Resolution Process**
+9. **Review and Amendments Procedures**
 
-## License
+---
 
-Copay is released under the MIT License. Please refer to the [LICENSE](https://github.com/bitpay/copay/blob/master/LICENSE) file that accompanies this project for more information including complete terms and conditions.
+### 1. Introduction
+**Purpose:** This operational manual provides detailed procedures and guidelines for the daily operations of Smart Enterprise LLC, ensuring consistency, transparency, and alignment with the organization's mission.
+
+---
+
+### 2. Membership Procedures
+**Membership Application:**
+- Interested individuals complete a membership application form.
+- Applications reviewed by the Membership Committee.
+
+**Membership Rights and Responsibilities:**
+- Members have the right to vote, participate in meetings, and serve on committees.
+- Members are responsible for staying informed, attending meetings, and contributing to initiatives.
+
+**Membership Meetings:**
+- Regular meetings scheduled quarterly.
+- Special meetings called as needed.
+
+**Membership Dues:**
+- Annual dues set by the Board of Directors.
+- Dues collected to support operational costs and programs.
+
+---
+
+### 3. Board of Directors Operations
+**Election of Directors:**
+- Elections held at the Annual General Meeting (AGM).
+- Candidates nominated by members; voting conducted by secret ballot.
+
+**Board Meetings:**
+- Monthly meetings to discuss strategic and operational issues.
+- Agenda prepared by the Chair; minutes recorded by the Secretary.
+
+**Board Responsibilities:**
+- Develop strategic plans and policies.
+- Provide financial oversight
